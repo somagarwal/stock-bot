@@ -23,5 +23,5 @@ jobs:
 
       - name: Run Python Script
         env:
-          STOCK_BOT: ${{ secrets.STOCK_BOT }}
+          GCP_CREDENTIALS: ${{ secrets.STOCK_BOT }}
         run: python stock-bot.py
